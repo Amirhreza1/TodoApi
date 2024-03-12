@@ -94,5 +94,7 @@ app.MapDelete("/todo/{id}", async (CosmosClient client, IConfiguration config, s
     }
 });
 
+
+
 app.Run();
 
